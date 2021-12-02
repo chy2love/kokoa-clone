@@ -1,0 +1,35 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.login-form input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.2);
+}
+.login-form input::placeholder {
+  opacity: 70%;
+}
+.login-form :nth-child(2) {
+  margin-bottom: 20px;
+}
+input[type="submit"] {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.login-form a {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
